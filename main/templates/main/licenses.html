@@ -1,0 +1,69 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta name="viewport" content="widtd=device-width">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'main/css/style.css'%}">
+    <link rel="icon" type="image/png"  href="{% static 'main/img/favicon-16x16.png' %}">
+    <title>Линцензии и сертификаты</title>
+</head><body class=body>
+    <header class="header">
+        <div class=intro>
+			<a  href="{% url 'home' %}"><img  src="{% static 'main/img/logo1.png'%}"class="intro1"></a>
+			<div class="section_text">Безопасность и связь 
+          в надежных руках!
+         </div>     
+        </div>
+        <ul class="menu">
+  <li>
+    <a href="{% url 'about' %}">Компания&bigtriangledown;</a>
+    <ul>
+      <li><a href="{% url 'about' %}">О компании</a></li>
+      <li><a href="{% url 'news' %}">Новости</a></li>
+      <li><a href="{% url 'licenses' %}">Лицензии и сертификаты</a></li>
+	  <li><a href="{% url 'vakansii' %}">Вакансии</a></li>
+      <li><a href="{% url 'requisites' %}">Реквизиты</a></li>
+	  <li><a href="{% url 'contacts' %}">Контакты</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="{% url 'realise' %}">Реализованные проекты</a>
+  </li>
+  <li><a href="{% url 'partners'%}">Наши партнёры</a></li>
+  <li><a href="{% url 'projectsupplies' %}">Проектные поставки</a></li>
+  <li><a href="{% url 'injsystem'%}">Инженерные системы</a></li>
+</ul></header>
+	<div class=osnova>
+		<div class=zagal1>Лицензии и сертификаты</div>
+		<div class=lizensii>
+			<div class=infod>Компании ДВ.ком имеет все необходимые для своей деятельности свидетельства и лицензии.<br>
+
+<br>Компания ДВ.ком состоит в саморегулируемых организациях:</div>
+		<div class=zagalo4>Саморегулируемая организация Ассоциация «Объединение проектировщиков Южного и Северо-Кавказского округов», регистрационный номер СРО-П-033-30092009.</div>
+			  <div class=infop>Дает право на выполнение работ по подготовке проектной документации в отношении объектов капитального строительства.<br><br>Регистрационный номер члена в реестре СРО: 00253.<br>Дата регистрации в реестре СРО: 25.01.2010 г.<br><a  class="Silka" href="https://nopriz.ru/nreesters/elektronnyy-reestr/">реестр НОПРИЗ</a></div>
+	    <div class=zagalo4>Саморегулируемая организация Ассоциация "Объединение строителей Южного и Северо-Кавказского округов", регистрационный номер СРО-С-031-25082009.</div>
+			<div class=infop>Дает право на выполнение работ в отношении объектов капитального строительства, в том числе особо опасных, технически сложных и уникальных объектов капитального строительства (кроме объектов использования атомной энергии).<br><br>Регистрационный номер члена в реестре СРО: 00926.<br>Дата регистрации в реестре СРО: 25.01.2010 г.<br><a  class="Silka" href="https://reestr.nostroy.ru/reestr/clients/98/members/28137483">реестр НОСТРОЙ</a></div>
+			 <div class=zagalo4>Лицензия на осуществление деятельности по монтажу, ремонту и обслуживанию средств обеспечения пожарной безопасности зданий и сооружений МЧС России.</div>
+			<div class=infop>от 24 Сентября 2013 г.<br>№ 5-Б/00865<br>Регистрационный номер 060503<br>Идентификационный номер налогоплательщика: 6165090254<br>Основной государственный регистрационный номер: 1026103741388<br><a  class="Silka" href="static/img/Pozhar.pdf.crdownload">Скан лицензии</a></div>
+		</div>
+		</div>
+		<div class=footer>
+		<a href="{% url 'home' %}"><img src="{% static 'main/img/logo2.png'%}" class=logo2></a>
+		 <a class =info>© 2009 ООО «ДВ.ком», Ростов-на-Дону, 344023, 
+         ул. Страны Советов 19, этаж 6
+          многоканальный телефон: +7 (863) 255-24-84</a>
+		 
+			<div class=info2>
+				<a class="info3">
+					Email:sales@dvcom.ru</a>
+				<a class="info4" href="{% url 'contacts' %}">
+					
+					Cхема проезда
+                 Контакты</a>
+			</div>
+		</div>
+	</body>

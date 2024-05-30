@@ -1,0 +1,687 @@
+@media (max-width: 3440px) {
+	.header{
+		width: 120px;
+	}
+}
+
+.html{ 
+}
+
+.body{
+	margin:0;
+    padding: 0;
+}
+
+.header{
+	width: 100%;
+	padding: 0;
+}
+
+
+.intro{
+ justify-content: space-between;
+ padding: 10px 50px 10px 50px;
+ display:flex;
+ flex-direction: row;
+ 
+}
+.intro1{
+ cursor: pointer;
+  width: 588px;
+  height: 58;
+  font-size: 20px;
+  text-align: left;
+  
+}
+
+
+.section_text{
+  display: flex;
+  font-family: "Montserrat";
+  text-align: right;
+  width: 228px;
+  font-size: 20px;
+	
+}
+
+
+.menu{
+  position:relative;
+  margin:0 auto;	
+  padding: 0px;
+  display: flex;
+}
+
+.menu li{
+  text-align: left;
+  left: 0;
+  width: 100%;
+  list-style: none;
+  background: #3856A3;
+  position: relative;
+}
+
+.menu a {
+   	
+  font-family: "Montserrat";	
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  height: auto;
+  line-height: 40px;
+  transition: all .5s;
+}
+
+.menu a:hover {
+  background: #808291;
+}
+
+.menu ul {
+  left: 50px;	
+  position: absolute;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
+
+.osnova{
+  padding: 100px;
+  justify-content: center;	
+  background-color:252634;
+  min-height: 1000px;
+}
+
+.footer{
+ justify-content: space-between;
+ display:flex;
+ background-color:3856A3; 
+ padding: 50px 50px 50px 50px;
+ height: auto;
+
+}
+
+.logo2{
+  cursor: pointer;
+  margin-top: 3%;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+	
+}
+
+.info{
+  text-decoration:0;
+  display: flex;
+  font-family: "Montserrat";
+  text-align: left;
+  color: white;	
+  font-weight: 400;
+  font-size:24px;
+  line-height: 33px;
+  width: 592px;
+	
+}
+
+.info2{
+	font-family: "Montserrat";
+	text-decoration: 0;
+    font-size: 24px;
+	color: white;
+    width: 301px;
+	text-align: right;
+}
+
+
+.info3{
+	font-family: "Montserrat";
+    font-size: 24px;
+	color: white;
+	text-decoration:0;
+}
+
+.info4{
+	font-family: "Montserrat";
+    font-size: 24px;
+	color: white;
+}
+
+.vacansii{
+   padding:50px 50px 50px 50px;
+   justify-content: center;	
+   height: auto;	
+   max-width: 900px;
+   margin: 0 auto;
+   background-color: rgba(000, 0, 0, 0.2);
+}
+
+.zagal{	
+   padding: 0px 0px 50px 0px;
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+   color: #3856A3;
+   font-size:36px;
+   font-family: "Montserrat";
+   font-weight: bold;
+   
+}
+
+.zagalo{
+	padding:50px 0px 0px 0px;
+	text-align: left;
+	font-family: "Montserrat";
+	font-size: 20px;
+	color:#28C4F5;
+}
+
+.infod{
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+}
+
+.infodd{
+	padding:50px 0px 0px 0px;
+	padding:;
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+}
+
+.blockinfoz{
+     margin: 20px;
+	 padding: 20px 20px 20px 20px;
+	 max-width: 440px;
+	 height: auto;
+	 background-color: rgba(40, 196, 245,0.2);
+ }
+
+.blockinfoy{
+	 margin: 20px;
+     padding: 20px 20px 20px 20px;
+	 max-width: 440px;
+	 height: auto; 
+	 background-color: rgba(0, 193, 124,0.2); 
+}
+
+.blockinfozag{
+	font-weight: bold;
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:24px;
+	color:FEFEFE;
+}
+.blockinfo{
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:24px;
+	color:FEFEFE;
+}
+
+.blockinfozag1{
+	font-weight: bold;
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:24px;
+	color:FEFEFE;
+}
+.blockinfo1{
+	line-height: 20px;
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:24px;
+	color:FEFEFE;
+}
+
+.infos{
+	justify-content: center;
+	margin: 0 auto;
+	display:flex;
+}
+.briefinfo{
+	padding: 50px;
+	font-weight: lighter;
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:24px;
+	color:FEFEFE;
+
+}
+.blockbriefinfo{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	max-width: 920px;
+	background-color: rgba(000, 0, 0, 0.2);
+	margin-top: 20px;
+	margin-bottom: 
+	
+}
+
+
+.osnova1{
+	 background-color:252634;
+     height: auto;
+	
+}
+.zagal1{
+   padding: 0px 0px 50px 0px;
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+   color: #3856A3;
+   font-size:36px;
+   font-family: "Montserrat";
+   font-weight: bold;
+   
+}
+
+.zagal2{
+   padding: 50px 0px 50px 0px;
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+   color: #28C4F5;
+   font-size:24px;
+   font-family: "Montserrat";
+   font-weight: bold;
+   
+}
+
+.zagal3{
+   padding: 0px 0px 50px 0px;
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+   color: #3856A3;
+   font-size:36px;
+   font-family: "Montserrat";
+   font-weight: bold;
+   
+   
+}
+
+.requist{
+   padding:150px 150px 150px 150px;
+   justify-content: center;	
+   height: auto;	
+   max-width: 720px;
+   margin: 0 auto;
+   background-color: rgba(000, 0, 0, 0.2);
+}
+
+.infodd1{
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+}
+
+.infox{
+    font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+}
+.infod li{
+	margin-left: 40px;
+}
+
+.postavki{
+   padding:50px 50px 50px 50px;
+   justify-content: center;	
+   height: auto;	
+   max-width: 1500px;
+   margin: 0 auto;
+   background-color: rgba(000, 0, 0, 0.2);
+}
+
+
+.Silka{
+	font-size:20px;
+	font-family: "Montserrat";
+	color:FEFEFE;
+}
+
+.lizensii{
+   padding:50px 50px 50px 50px;
+   justify-content: center;	
+   height: auto;	
+   max-width: 1200px;
+   margin: 0 auto;
+   background-color: rgba(000, 0, 0, 0.2);
+}
+
+.zagalo4{
+	padding:50px 0px 50px 0px;
+	font-family: "Montserrat";
+	font-size: 20px;
+	color:#28C4F5;
+}
+
+.infop{
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+}
+
+.infol{
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+}
+.infol li{
+   margin-left: 20px;
+}
+
+.zagalo6{
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+   color:#28C4F5;
+   font-size:20px;
+   font-family: "Montserrat";
+}
+.infov{
+	direction: flex;
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+}
+
+.contacts{
+   display: flex;
+   padding:100px 100px 100px 100px;
+   justify-content: center;	
+   height: auto;	
+   max-width: 720px;
+   margin: 0 auto;
+   background-color: rgba(000, 0, 0, 0.2);
+}
+
+.infor{
+   padding: 50px;
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+}
+
+.map{
+   display: flex;
+   padding: 50px;
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+}
+.alert-warning{
+   min-height:250px;
+   height: auto;
+   width:95%;
+   margin: 0 auto;
+   border-radius:0;
+   border:0;
+   background-color: rgba(000, 0, 0, 0.2);
+   margin-bottom:50px;
+   display: grid;
+
+}
+
+.fulltextnews{
+	font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+
+}
+.zagalovoknews{
+    cursor: pointer;
+    text-align: left;
+	font-family: "Montserrat";
+	font-size: 24px;
+	color:#28C4F5;
+	text-decoration:0;
+
+}
+.datenews{
+    font-family: "Montserrat";
+	text-align: left;
+	font-size:16px;
+	color:FEFEFE;
+	align-self: flex-end;
+	justify-content: right;
+
+
+}
+
+.zagalа{
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+   color: red;
+   font-size:36px;
+   font-family: "Montserrat";
+   font-weight: bold;
+
+
+}
+
+.photonews{
+    height: 250px;
+    width: 250px;
+}
+
+.s5{
+   display: flex;
+}
+
+.newsinto{
+   padding:50px 50px 50px 50px;
+   height:auto;
+   width:95%;
+   margin: 0 auto;
+   border-radius:0;
+   border:0;
+   background-color: rgba(000, 0, 0, 0.2);
+   display: grid;
+}
+
+.zaglinto{
+    text-align: left;
+	font-family: "Montserrat";
+	font-size: 24px;
+	color:#28C4F5;
+}
+
+.fulltextinto{
+    font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+
+}
+
+.photointo{
+  display:flex;
+  height:550px;
+  width:450px;
+}
+
+.dateinto{
+   font-family: "Montserrat";
+	text-align: left;
+	font-size:16px;
+	color:FEFEFE;
+	align-self: flex-end;
+	justify-content: right;
+}
+
+.infointo{
+   padding:100px 0px 0px 0px;
+   display:flex;
+}
+
+.nextnews{
+    font-family: "Montserrat";
+	font-size:16px;
+	text-decoration:0;
+	color:#28C4F5;
+}
+
+.lastnews{
+     font-family: "Montserrat";
+	 font-size:16px;
+	 text-decoration:0;
+	 color:#28C4F5;
+}
+
+.current{
+    font-family: "Montserrat";
+	font-size:16px;
+	color:white;
+	}
+
+.pagination{
+    justify-content:center;
+
+}
+
+.daterealiseinto{
+   font-family: "Montserrat";
+	text-align: left;
+	font-size:16px;
+	color:FEFEFE;
+	align-self: flex-end;
+	justify-content: right;
+}
+
+.inforealiseinto{
+   padding:100px 0px 0px 0px;
+   display:flex;
+}
+.photorealiseinto{
+    display:flex;
+    height:600px;
+    width:450px;
+
+}
+
+.realiseinto{
+   padding:50px 50px 50px 50px;
+   height:auto;
+   width:95%;
+   margin: 0 auto;
+   border-radius:0;
+   border:0;
+   background-color: rgba(000, 0, 0, 0.2);
+   display: grid;
+}
+
+.zaglrealiseinto{
+    text-align: left;
+	font-family: "Montserrat";
+	font-size: 24px;
+	color:#28C4F5;
+}
+
+.fulltextrealiseinto{
+    font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+}
+
+.company{
+   padding:50px 50px 50px 50px;
+   height:auto;
+   width:95%;
+   margin: 0 auto;
+   border-radius:0;
+   border:0;
+   background-color: rgba(000, 0, 0, 0.2);
+   display: grid;
+}
+
+.photoproject{
+     margin:50px;
+     cursor: pointer;
+     height: 200px;
+     width: 200px;
+     display:grid;
+
+}
+
+.photointo2{
+  display:flex;
+  height:550px;
+  width:450px;
+}
+
+
+.zagalovokpartners{
+    text-align: left;
+	font-family: "Montserrat";
+	font-size: 24px;
+	color:#28C4F5;
+	text-decoration:0;
+	display:flex;
+	margin: 0 auto;
+    justify-content: center;
+    margin-top:50px;
+
+}
+
+.categoryinto{
+    font-family: "Montserrat";
+	text-align: left;
+	font-size:20px;
+	color:FEFEFE;
+
+}
+
+.s6{
+
+   margin-bottom:50px;
+   width:auto;
+   background-color: rgba(000, 0, 0, 0.2);
+   margin: 0 auto;
+   justify-content: center;
+
+
+}
+.f5{
+   flex-wrap: wrap;
+   display: flex;
+
+}
+
+.silkanews{
+   color:#28C4F5;
+   font-size: 15px;
+   display:flex;
+   margin: 0 auto;
+   justify-content: center;
+}
+.zagalovoknews53{
+    text-align: left;
+	font-family: "Montserrat";
+	font-size: 24px;
+	color:#28C4F5;
+	text-decoration:0;
+
+}
+
+.fg{
+   color:#28C4F5;
+   font-size: 15px;
+   text-decoration:0;
+}
